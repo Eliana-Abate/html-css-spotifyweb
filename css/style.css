@@ -51,7 +51,7 @@ header {
 }
 
 #logo {
-    width: 100%;
+    width: 60%;
 }
 
 #upgrade-btn {
@@ -60,7 +60,7 @@ header {
     padding: 10px 30px;
     text-decoration: none;
     color: white;
-    display: inline-block;
+    display: block;
 }
 
 
@@ -106,17 +106,17 @@ main {
     padding: 20px;
 }
 
-
 .single-album {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    padding-right: 15px;
     text-align: center;
 }
 
 .single-album img {
-    width: 90%;
+    width: 100%;
     margin-bottom: 10px;
 }
 
