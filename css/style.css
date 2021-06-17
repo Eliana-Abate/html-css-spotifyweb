@@ -50,12 +50,13 @@ header {
 }
 
 #upgrade-btn {
+    display: block;
     border: 1px solid white; 
     border-radius: 30px;
     padding: 10px 30px;
     text-decoration: none;
     color: white;
-    display: block;
+    text-align: center;
 }
 
 
