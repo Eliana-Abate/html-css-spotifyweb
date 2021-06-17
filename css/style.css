@@ -39,6 +39,14 @@ header {
     width: 70%;
 }
 
+#upgrade-btn {
+    border: 1px solid white; 
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
