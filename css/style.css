@@ -121,6 +121,10 @@ main {
     margin-top: 5px;
 }
 
+.rounded>img{
+    border-radius: 50%;
+}
+
 
 
 
