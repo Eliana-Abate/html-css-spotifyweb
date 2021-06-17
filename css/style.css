@@ -14,6 +14,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .album {
@@ -29,11 +30,11 @@ footer {
 
 .bg-black {
     background-color: black;
-    height: 100vh;
+    height: calc(100vh - 100px);
     
 }
 
 .bg-blue {
     background-color: #141922;
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
