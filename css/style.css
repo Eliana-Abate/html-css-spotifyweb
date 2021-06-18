@@ -121,7 +121,7 @@ main {
     margin-top: 5px;
 }
 
-.rounded>img{
+.rounded {
     border-radius: 50%;
 }
 
