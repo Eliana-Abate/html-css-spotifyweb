@@ -77,7 +77,7 @@ main {
 }
 
 .tools-icons .icon {
-    width: 15%;
+    width: 10%;
     filter: invert(50%);
     margin-right: 10px;
 }
@@ -87,34 +87,49 @@ main {
 }
 
 .tools-icons ul li {
-    font-size: 0.85em;
-    padding-left: 16px;
+    font-size: 0.7em;
+    padding-left: 17px;
     margin-bottom: 10px;
-    border-left: 4px solid transparent;
+    border-left: 3px solid transparent;
 }
 
 .tools-icons ul li:hover {
     color: white;
-    border-left: 4px solid yellowgreen;
+    border-left: 3px solid yellowgreen;
 }
 
 .user-playlist {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
-    font-size: 0.85em;
 }
 
-.user-playlist h4, .user-playlist ul li:first-child {
-    font-size: 1em;
+.user-playlist h4 {
     color: white;
 }
 
-.user-playlist ul {
+.user-playlist h4, .user-playlist #add-playlist {
+    font-size: 0.7em;
+}
+
+.user-playlist #add-playlist {
     margin-top: 15px;
 }
 
 .user-playlist ul li{
-    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 0.6em;
+}
+
+.user-playlist #add-playlist:hover {
+    color: white;
+}
+
+.user-playlist #add-playlist:hover .fas.fa-plus {
+    background-color: white;
+}
+
+.user-playlist ul li:hover {
+    color: white;
 }
 
 
