@@ -98,6 +98,12 @@ main {
     border-left: 3px solid yellowgreen;
 }
 
+.tools-icons ul li:first-child {
+    border-left: 3px solid yellowgreen;
+}
+
+
+
 .user-playlist {
     margin-top: 15px;
 }
