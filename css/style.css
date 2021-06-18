@@ -70,7 +70,6 @@ main {
     display: flex;
     flex-direction: column;
     color: gray;
-    position: relative;
 }
 
 .bg-black {
@@ -101,7 +100,6 @@ main {
 
 .user-playlist {
     margin-top: 15px;
-    margin-left: 20px;
 }
 
 .user-playlist h4 {
@@ -117,6 +115,7 @@ main {
 }
 
 .user-playlist ul li{
+    padding-left: 20px;
     margin-top: 15px;
     font-size: 0.6em;
 }
@@ -143,15 +142,22 @@ main {
     margin-right: 8px;
 }
 
-
 #scroll-list {
-    height: 100%
-}
-
-#scroll-list ul {
     height: 200px;
     overflow-y: scroll;
 }
+
+.app-profile-info {
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background-color: teal;
+    height: 100px; 
+}
+
+
+
+
+
 
 /*Section: album-list*/
 .album-list {
