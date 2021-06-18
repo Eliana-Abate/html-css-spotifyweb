@@ -77,7 +77,7 @@ main {
 }
 
 .tools-icons .icon {
-    width: 10%;
+    width: 12%;
     filter: invert(50%);
     margin-right: 10px;
 }
@@ -87,7 +87,7 @@ main {
 }
 
 .tools-icons ul li {
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding-left: 17px;
     margin-bottom: 10px;
     border-left: 3px solid transparent;
@@ -113,7 +113,7 @@ main {
 }
 
 .user-playlist h4, .user-playlist #add-playlist {
-    font-size: 0.7em;
+    font-size: 0.9em;
     padding-left: 20px;
 }
 
@@ -123,8 +123,8 @@ main {
 
 .user-playlist ul li{
     padding-left: 20px;
-    margin-top: 15px;
-    font-size: 0.6em;
+    margin-top: 18px;
+    font-size: 0.75em;
 }
 
 .user-playlist #add-playlist:hover {
