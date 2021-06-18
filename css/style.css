@@ -15,8 +15,8 @@ li {
 }
 
 
-/************** HEADER **************/
 
+/* ! ******************* HEADER *****************************/
 header {
     width: 100%;
     height: 80px;
@@ -55,13 +55,39 @@ header {
 }
 
 
-/************* MAIN **************/
+
+/*! ************************** MAIN **********************************/
 main {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
+/*Section: tools-column*/
+.tools-icons .icon {
+    width: 15%;
+    filter: grayscale(100%);
+}
+
+.tools-icons li:hover .icon {
+    
+}
+
+.tools-icons ul li {
+    color: gray;
+    padding-left: 16px;
+    margin-bottom: 10px;
+    border-left: 4px solid transparent;
+}
+
+.tools-icons ul li:hover {
+    color: white;
+    border-left: 4px solid yellowgreen;
+}
+
+
+
+/*Section: album-list*/
 .album-list {
     height: calc(100vh - 100px);
     padding-top: 80px;
@@ -134,7 +160,7 @@ main {
 
 
 
-/************** FOOTER **************/
+/*! ********************* FOOTER *******************************/
 
 footer {
     width: 100%;
