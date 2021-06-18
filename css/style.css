@@ -35,13 +35,8 @@ header {
     align-items: center;
 }
 
-#main-header .col-2-lg {
-    display: flex;
-    align-items: center;
-}
-
 #logo {
-    width: 60%;
+    width: 55%;
 }
 
 #upgrade-btn {
@@ -103,9 +98,8 @@ main {
 }
 
 
-
 .user-playlist {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .user-playlist h4 {
@@ -113,7 +107,7 @@ main {
 }
 
 .user-playlist h4, .user-playlist #add-playlist {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding-left: 20px;
 }
 
@@ -202,8 +196,6 @@ main {
     display: flex;
     align-items: center;
 }
-
-
 
 
 
@@ -300,4 +292,4 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1;
-}
+} 
