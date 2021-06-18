@@ -66,15 +66,17 @@ main {
 /*Section: tools-column*/
 .tools-icons .icon {
     width: 15%;
-    filter: grayscale(100%);
+    filter: invert(50%);
+    margin-right: 10px;
 }
 
 .tools-icons li:hover .icon {
-    
+    filter: invert(0);
 }
 
 .tools-icons ul li {
     color: gray;
+    font-size: 0.9em;
     padding-left: 16px;
     margin-bottom: 10px;
     border-left: 4px solid transparent;
