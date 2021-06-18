@@ -228,6 +228,28 @@ main {
     margin-right: 30px;
 }
 
+.menu-title {
+    position: relative;
+}
+
+.notch {
+    height: 3px;
+    width: 30px;
+    background-color: yellowgreen;
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.album-list .nav-menu ul li:hover .notch {
+    visibility: visible;
+}
+
+.album-list .nav-menu ul li:first-child .notch {
+    visibility: visible;
+}
+
 /*Playlist*/ 
 .playlist-name {
     padding: 20px;
