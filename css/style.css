@@ -51,14 +51,14 @@ header {
 
 
 
-/*! ************************** MAIN **********************************/
+/* ************************** MAIN **********************************/
 main {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-/*Section: tools-column*/
+/*! *** SECTION 1/2: tools-column*** */
 .tools-column {
     height: calc(100vh - 80px);
     padding-top: 70px;
@@ -98,6 +98,7 @@ main {
 }
 
 
+/*! User playlist*/
 .user-playlist {
     margin-top: 20px;
 }
@@ -149,6 +150,7 @@ main {
 }   
 
 
+/*! App download and user-profile nav*/
 .bottom-area {
     margin-bottom: 10px;
     flex-grow: 1;
@@ -199,7 +201,7 @@ main {
 
 
 
-/*Section: album-list*/
+/*! *** SECTION 2/2: album-list *** */
 .album-list {
     height: calc(100vh - 80px);
     padding-top: 70px;
@@ -212,6 +214,8 @@ main {
     background-color: #141922;
 }
 
+
+/*! Menu nav*/
 .album-list .nav-menu ul {
     display: inline-block;
     margin-top: 20px;
@@ -248,7 +252,8 @@ main {
     visibility: visible;
 }
 
-/*Playlist*/ 
+
+/*! Playlist*/ 
 .playlist-name {
     padding: 20px;
 }
