@@ -142,12 +142,15 @@ main {
     margin-right: 8px;
 }
 
+
 #scroll-list {
+    height: 100%
+}
+
+#scroll-list ul {
     height: 200px;
     overflow-y: scroll;
 }
-
-
 
 /*Section: album-list*/
 .album-list {
