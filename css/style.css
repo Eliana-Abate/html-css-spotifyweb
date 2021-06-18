@@ -167,10 +167,18 @@ main {
     padding-bottom: 8px;
 }
 
+#app-download:hover {
+    color: white;
+}
+
 #app-download img {
     width: 12%;
     filter: invert(50%);
     margin-right: 12px;
+}
+
+#app-download:hover img {
+    filter: invert(0);
 }
 
 #user-profile img {
