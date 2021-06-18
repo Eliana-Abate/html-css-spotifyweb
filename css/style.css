@@ -70,6 +70,7 @@ main {
     display: flex;
     flex-direction: column;
     color: gray;
+    position: relative;
 }
 
 .bg-black {
