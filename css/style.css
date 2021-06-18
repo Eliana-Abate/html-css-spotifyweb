@@ -75,7 +75,7 @@ main {
     flex-direction: column;
 }
 
-.left-column {
+.tools-column {
     height: calc(100vh - 100px);
     padding-top: 80px;
 }
