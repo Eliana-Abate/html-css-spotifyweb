@@ -75,14 +75,17 @@ main {
     flex-direction: column;
 }
 
+.left-column {
+    height: calc(100vh - 100px);
+    padding-top: 80px;
+}
+
 .bg-black {
     background-color: black;
-    height: calc(100vh - 100px);   
 }
 
 .bg-blue {
     background-color: #141922;
-    height: calc(100vh - 100px);
 }
 
 .album-list .nav-menu ul {
