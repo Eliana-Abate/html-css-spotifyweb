@@ -133,7 +133,6 @@ main {
 }
 
 
-
 .fas.fa-plus {
     background-color: lightgray;
     color: black;
@@ -141,6 +140,11 @@ main {
     font-weight: 800;
     padding: 10px;
     margin-right: 8px;
+}
+
+#scroll-list {
+    height: 200px;
+    overflow-y: scroll;
 }
 
 
