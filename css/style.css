@@ -399,11 +399,12 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
 }
 
 .now-played {
-    width: 100%;
+    width: 200%;
     display: flex;
     flex-direction: row;
     align-items: center;
