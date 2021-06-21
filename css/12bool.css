@@ -172,8 +172,7 @@
 
 /*************** RESPONSIVE > 0px ****************/ 
 @media screen and (min-width: 0px) {
-
-    .container {
+    main {
         width: 100%;
         max-width: 575px;
         margin: 0 auto;
@@ -245,8 +244,7 @@
 
 /*************** RESPONSIVE > 576px ****************/ 
 @media screen and (min-width: 576px) {
-
-    .container {
+    main {
         width: 100%;
         max-width: 767px;
         margin: 0 auto;
@@ -318,12 +316,11 @@
 
 /*************** RESPONSIVE > 768px ****************/
 @media screen and (min-width: 768px) {
-
-    .container {
+    main {
         width: 100%;
         max-width: 991px;
         margin: 0 auto;
-    }
+    } 
 
     .col-12-md {
         width: calc((100% / 12) * 12);
@@ -391,9 +388,9 @@
 
 /*************** RESPONSIVE > 992px ****************/ 
 @media screen and (min-width: 992px) {
-    .container {
+    main {
         width: 100%;
-        max-width: 1199px;
+        max-width: 1999px;
         margin: 0 auto;
     }
 

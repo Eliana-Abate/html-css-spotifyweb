@@ -18,6 +18,12 @@ li {
     margin-right: 50px;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 
 /******************** HEADER *****************************/
@@ -28,7 +34,6 @@ header {
     position: fixed;
     top: 0;
 }
-
 #main-header {
     width: calc(100% - 40px);
     height: 70px;
@@ -44,17 +49,18 @@ header {
 
 #logo {
     width: 30%;
+    height: 100%;
     margin-right: 250px;
 }
 
+
 .h-btn {
+    width: 250px;
     margin-right: 20px;
     display: block;
     border: 1px solid white; 
     border-radius: 30px;
     padding: 10px 30px;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .h-btn:hover {
@@ -70,6 +76,7 @@ header {
 
 
 /*************************** MAIN **********************************/
+
 main {
     display: flex;
     flex-direction: row;
@@ -78,16 +85,18 @@ main {
 
 /*! *** SECTION 1/2: tools-column*** */
 .tools-column {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     padding-top: 70px;
     display: flex;
     flex-direction: column;
     color: gray;
 }
 
+
 .bg-black {
     background-color: black;
 }
+
 
 .tools-icons .icon {
     width: 12%;
@@ -113,17 +122,6 @@ main {
 
 .tools-icons ul li:first-child {
     border-left: 3px solid yellowgreen;
-}
-
-#scroll-list {
-    min-height: 200px;
-
-}
-
-#scroll-list {
-    height: 100%;
-    width: 100%;
-    overflow-y: auto;
 }
 
 
@@ -172,11 +170,6 @@ main {
     padding: 10px;
     margin-right: 8px;
 }
-
-#scroll-list  {
-    height: 150px;
-    overflow-y: scroll;
-}   
 
 
 /*! App download and user-profile nav*/
@@ -232,7 +225,7 @@ main {
 
 /*! *** SECTION 2/2: album-list *** */
 .album-list {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     padding-top: 70px;
     overflow-y: scroll;  
     display: flex;
@@ -383,7 +376,7 @@ footer {
 }
 
 .player-controls .now-played img {
-    width: 12%;
+    max-width: 15%;
     margin-right: 15px;
 }
 
