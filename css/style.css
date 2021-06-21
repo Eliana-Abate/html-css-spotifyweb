@@ -56,11 +56,17 @@ header {
 
 
 #logo {
-    width: 30%;
+    width: 60%;
     height: 100%;
     margin-right: 250px;
 }
 
+#main-header .col-10-lg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
 
 .h-btn {
     width: 250px;
@@ -69,6 +75,7 @@ header {
     border: 1px solid white; 
     border-radius: 30px;
     padding: 10px 30px;
+    
 }
 
 .h-btn:hover {
