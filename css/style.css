@@ -32,6 +32,8 @@ header {
 #main-header {
     width: calc(100% - 40px);
     height: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -39,8 +41,10 @@ header {
     align-items: center;
 }
 
+
 #logo {
-    width: 55%;
+    width: 30%;
+    margin-right: 250px;
 }
 
 .h-btn {
@@ -51,7 +55,6 @@ header {
     padding: 10px 30px;
     text-align: center;
     vertical-align: middle;
-    display: block;
 }
 
 .h-btn:hover {
