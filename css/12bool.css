@@ -173,9 +173,9 @@
 
     #v-logo-xs {
         display: unset;
-        width: 60%;
-        height: 100%;
-        margin-left: -10px
+        width: 30px;
+        margin-left: -13px;
+      
     }
 
     .tools-icons {
@@ -185,7 +185,8 @@
     }
 
     .tools-icons .icon {
-        width: 100%;
+        width: 30px;
+        margin-left: -10px;
     }
 
 

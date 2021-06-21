@@ -56,17 +56,26 @@ header {
 
 
 #logo {
-    width: 60%;
-    height: 100%;
-    margin-right: 250px;
+    width: 130px;
 }
 
-#main-header .col-10-lg {
+#main-header .b-clm {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    align-items: center;
 }
+
+#main-header .l-clm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+
 
 .h-btn {
     width: 250px;
@@ -222,7 +231,7 @@ main {
 }
 
 #app-download img {
-    width: 12%;
+    width: 30px;
     filter: invert(50%);
     margin-right: 12px;
     display: block;
@@ -245,7 +254,7 @@ main {
 }
 
 #user-profile img {
-    width: 16%;
+    width: 40px;
     padding: 0px 3px;
     background-color: gray;
     border-radius: 50%;
@@ -394,6 +403,7 @@ footer {
 }
 
 .now-played {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -411,7 +421,7 @@ footer {
 }
 
 .player-controls .now-played img {
-    max-width: 15%;
+    max-width: 50px;
     margin-right: 15px;
 }
 
