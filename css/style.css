@@ -16,7 +16,7 @@ li {
 
 
 
-/* ! ******************* HEADER *****************************/
+/******************** HEADER *****************************/
 header {
     width: 100%;
     height: 70px;
@@ -51,7 +51,7 @@ header {
 
 
 
-/* ************************** MAIN **********************************/
+/*************************** MAIN **********************************/
 main {
     display: flex;
     flex-direction: row;
@@ -95,6 +95,17 @@ main {
 
 .tools-icons ul li:first-child {
     border-left: 3px solid yellowgreen;
+}
+
+#scroll-list {
+    min-height: 180px;
+
+}
+
+#scroll-list {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 
@@ -288,7 +299,7 @@ main {
 
 
 
-/*! ********************* FOOTER *******************************/
+/********************** FOOTER *******************************/
 
 footer {
     width: 100%;
