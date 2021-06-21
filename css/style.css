@@ -320,12 +320,14 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .now-played {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .now-played p {
@@ -340,7 +342,7 @@ footer {
 
 .far.fa-heart, .far.fa-folder {
     color: gray;
-    padding-right: 12px;
+    padding-right: 15px;
 }
 
 .controls {
@@ -379,7 +381,7 @@ footer {
     justify-content: center;
 }
 
-.progress-bar{
+.progress-bar-big{
     width: 60%;
     height: 4px;
     border-radius: 30px;
@@ -402,7 +404,33 @@ footer {
 }
 
 #time-left {
-    padding-left: 30px;
-    
+    padding-left: 30px;  
 }
 
+
+.progress-bar-small{
+    width: 35%;
+    height: 4px;
+    border-radius: 30px;
+    background-color: gray;
+}
+
+.small-bar-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fas.fa-list-ul,
+.fas.fa-desktop,
+.fas.fa-volume-up {
+    padding-right: 18px;
+}
+
+.fas.fa-desktop,
+.fas.fa-volume-up {
+    padding-right: 18px;
+    font-size: 0.9em;
+}
