@@ -317,7 +317,7 @@ footer {
 .player-controls {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 
@@ -343,3 +343,49 @@ footer {
     color: gray;
     padding-right: 12px;
 }
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.controls-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px ;
+}
+
+.fas.fa-random, 
+.fas.fa-step-backward,
+.fas.fa-step-forward {
+    padding-right: 25px;
+}
+
+.far.fa-play-circle {
+    padding-left: 10px;
+    padding-right: 35px;
+    font-size: 2em;
+}
+
+
+.progress-bar{
+    width: 60%;
+    height: 4px;
+    border-radius: 30px;
+    background-color: gray;
+}
+
+
+.progress-value{
+    width: 20%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+}
+
