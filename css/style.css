@@ -92,7 +92,7 @@ main {
     border-left: 3px solid transparent;
 }
 
-.tools-icons ul li:hover {
+.tools-icons ul li:active {
     color: white;
     border-left: 3px solid yellowgreen;
 }
@@ -259,7 +259,11 @@ main {
     transform: translateX(-50%);
 }
 
-.album-list .nav-menu ul li:hover .notch {
+.album-list .nav-menu ul li:hover {
+    color: white;
+}
+
+.album-list .nav-menu ul li:active .notch {
     visibility: visible;
 }
 
