@@ -397,6 +397,31 @@ footer {
     height: 100%;
     border-radius: 30px;
     background-color: white;
+    position: relative;
+}
+
+.marker {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -70%;
+    right: 0;
+    transform: translate(50%);
+    visibility: hidden;
+}
+
+.progress-bar-big:hover .progress-value {
+    background-color: yellowgreen;
+}
+
+.progress-bar-small:hover .progress-value {
+    background-color: yellowgreen;
+}
+
+.progress-value:hover .marker {
+    visibility: visible;
 }
 
 #time-played, #time-left {
