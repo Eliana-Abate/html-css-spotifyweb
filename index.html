@@ -16,7 +16,8 @@
     <header>
         <section id="main-header">
             <div>
-                <img id="logo" src="./img/logo.svg" alt="logo">
+                <img id="logo" class="v-no" src="./img/logo.svg" alt="logo">
+                <img id="v-logo-xs" src="./img/logo-small.svg" alt="logo-small">
             </div>
 
             
@@ -29,7 +30,7 @@
     <!----------------------------- MAIN ----------------------------------------->
     <main>
         <!-------- SECTION 1/2 ------------>
-        <section class="col-2-lg bg-black tools-column">
+        <section class="col-1-xs col-2-sm col-2-md col-2-lg bg-black tools-column">
 
             <!--! Tools icons nav -->
 
@@ -37,24 +38,24 @@
                 <ul>
                     <li class="row a-center">
                         <img class="icon" src="./img/home.svg" alt="home">
-                        <span>Home</span>
+                        <h4 class="v-no">Home</h4>
                     </li>
 
                     <li class="row a-center">
                         <img class="icon" src="./img/search.svg" alt="search">
-                        <span>Cerca</span>
+                        <h4 class="v-no">Cerca</h4>
                     </li>
 
                     <li class="row a-center">
                         <img class="icon" src="./img/libreria.svg" alt="libreria">
-                        <span>La tua libreria</span>
+                        <h4 class="v-no">La tua libreria</h4>
                     </li>
                 </ul>      
             </nav>
 
 
             <!--! User playlist nav -->
-            <nav class="user-playlist">
+            <nav class="user-playlist v-no">
                 <h4>PLAYLIST</h4>
                 <div id="add-playlist">
                     <i class="fas fa-plus"></i>
@@ -79,23 +80,23 @@
             <nav class="bottom-area row">
                 <div id="app-download">
                     <img src="./img/download.svg" alt="download">
-                    <span>Installa app</span>
+                    <span class="v-no">Installa app</span>
                 </div>
 
                 <div id="user-profile"> 
                     <img src="./img/profile.svg" alt="profile">
-                    <span>John Doe</span>
+                    <span class="v-no">John Doe</span>
                 </div>
             </nav>
         </section>
 
 
         <!-------- SECTION 2/2 ---------->
-        <section class="col-10-md col-10-lg bg-blue album-list">
+        <section class="col-11-xs col-10-sm col-10-md col-10-lg bg-blue album-list">
 
             <!--! Menu nav -->
-            <nav class="col-12-md col-12-lg nav-menu row center">
-                <ul>
+            <nav class="col-12-xs col-12-sm col-12-md col-12-lg nav-menu row center">
+                <ul class="row">
                     <li>
                         <div class="menu-title">IN EVIDENZA<div class="notch"></div></div>
                     </li>
@@ -119,11 +120,11 @@
 
 
             <!--! Playlist: Recently played-->
-            <div class="col-12-md col-12-lg playlist-name">
+            <div class="col-12-xs col-12-sm col-12-md col-12-lg playlist-name">
                 <h2>Recently played</h2>
 
                 <div class="row start">
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/metal_lifting.jpg" alt="metal_lifting">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -132,7 +133,7 @@
                         <h6>Subtitle</h6>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/stranger.jpeg" alt="stranger">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -141,7 +142,7 @@
                         <h6>Kyle Dixon & Michael Stein</h6>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/aquietplace.jpeg" alt="aquietplace">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -150,7 +151,7 @@
                         <h6>Subtitle</h6>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/split.jpeg" alt="split">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -159,7 +160,7 @@
                         <h6>Subtitle</h6>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/cure.jpeg" alt="cure">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -168,7 +169,7 @@
                         <h6>Subtitle</h6>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <div class="img-container">
                             <img src="./img/sinister.jpeg" alt="sinister">
                             <div class="play-on-hover"><i class="far fa-play-circle"></i></div>
@@ -186,12 +187,12 @@
                 <h6>Più ascolti, più accurati saranno i suggerimenti.</h6>
 
                 <div class="row start">
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <img src="./img/radar.jpeg" alt="radar">
                         <h5>Release Radar</h5>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <img src="./img/mixdaily.jpeg" alt="mixdaily">
                         <h5>Daily Mix 1</h5>
                     </div>
@@ -207,12 +208,12 @@
                 <h6>Più ascolti, più accurati saranno i suggerimenti.</h6>
 
                 <div class="row start">
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <img class="rounded" src="./img/youg.jpeg" alt="youg">
                         <h5>Lana del Rey</h5>
                     </div>
 
-                    <div class="col-6-xs col-3-md col-2-lg single-album start">
+                    <div class="col-6-xs col-6-sm col-3-md col-2-lg single-album start">
                         <img class="rounded" src="./img/einaudi.jpeg" alt="einaudi">
                         <h5>Ludovico Einaudi</h5>
                     </div>
