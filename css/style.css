@@ -14,7 +14,7 @@ li {
   list-style-type: none;
 }
 
-.mg-right {
+.mg-right-50 {
     margin-right: 50px;
 }
 
@@ -43,14 +43,25 @@ header {
     width: 55%;
 }
 
-#upgrade-btn {
+.h-btn {
+    margin-right: 20px;
     display: block;
     border: 1px solid white; 
     border-radius: 30px;
     padding: 10px 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+}
+
+.h-btn:hover {
+    transform: scale(1.1)
+}
+
+#upgrade-btn {
     text-decoration: none;
     color: white;
-    text-align: center;
+    display: block;
 }
 
 
