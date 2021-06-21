@@ -316,14 +316,13 @@ footer {
 
 .player-controls {
     width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
 .now-played {
-    padding-top: 18px;
-    padding-left: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -347,8 +346,6 @@ footer {
 .controls {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
 }
 
 .controls-icons {
@@ -358,7 +355,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px ;
+    margin-bottom: 12px ;
 }
 
 .fas.fa-random, 
@@ -374,6 +371,14 @@ footer {
 }
 
 
+.progress-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .progress-bar{
     width: 60%;
     height: 4px;
@@ -381,11 +386,23 @@ footer {
     background-color: gray;
 }
 
-
 .progress-value{
     width: 20%;
     height: 100%;
     border-radius: 30px;
     background-color: white;
+}
+
+#time-played, #time-left {
+    font-size: 0.7em;
+}
+
+#time-played {
+    padding-right: 30px;
+}
+
+#time-left {
+    padding-left: 30px;
+    
 }
 
