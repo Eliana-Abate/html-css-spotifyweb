@@ -24,6 +24,12 @@ li {
     flex-wrap: wrap;
 }
 
+[class*='col-'] {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
 
 
 /******************** HEADER *****************************/
@@ -184,6 +190,7 @@ main {
 
 /*! App download and user-profile nav*/
 .bottom-area {
+    width: 100%;
     margin-bottom: 10px;
     flex-grow: 1;
     display: flex;
@@ -197,6 +204,8 @@ main {
     border-bottom: 1.5px solid gray;
     font-size: 0.8em;
     display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
     align-items: center;
     padding-bottom: 8px;
 }
@@ -216,14 +225,6 @@ main {
     filter: invert(0);
 }
 
-#user-profile img {
-    width: 16%;
-    padding: 0px 3px;
-    background-color: gray;
-    border-radius: 50%;
-    margin-right: 10px;
-    display: block;
-}
 
 #user-profile {
     margin-top: 15px;
@@ -231,7 +232,18 @@ main {
     color: white;
     font-size: 0.9em;
     display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+#user-profile img {
+    width: 16%;
+    padding: 0px 3px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: block;
 }
 
 
@@ -255,6 +267,8 @@ main {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
