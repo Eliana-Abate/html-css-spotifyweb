@@ -339,6 +339,11 @@ footer {
     color: gray;
 }
 
+.now-played p:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .player-controls .now-played img {
     width: 12%;
     margin-right: 15px;
@@ -347,6 +352,10 @@ footer {
 .far.fa-heart, .far.fa-folder {
     color: gray;
     padding-right: 15px;
+}
+
+.far.fa-heart:hover, .far.fa-folder:hover {
+    color: white;
 }
 
 .controls {
@@ -365,15 +374,18 @@ footer {
 }
 
 .fas.fa-random, 
-.fas.fa-step-backward,
 .fas.fa-step-forward {
     padding-right: 25px;
 }
 
 .far.fa-play-circle {
-    padding-left: 10px;
+    padding-left: 35px;
     padding-right: 35px;
     font-size: 2em;
+}
+
+.far.fa-play-circle:hover {
+    transform: scale(1.2);
 }
 
 
@@ -405,6 +417,7 @@ footer {
     height: 10px;
     border-radius: 50%;
     background-color: white;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
     top: -70%;
     right: 0;
