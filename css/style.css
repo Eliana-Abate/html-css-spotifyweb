@@ -99,9 +99,6 @@ main {
     background-color: black;
 }
 
-.tools-icons {
-    width: 100%;
-}
 
 .tools-icons .icon {
     filter: invert(50%);
@@ -173,6 +170,15 @@ main {
     font-weight: 800;
     padding: 10px;
     margin-right: 8px;
+}
+
+#scroll-list {
+    height: 200px;
+}
+
+#scroll-list ul {
+    height: 100%;
+    overflow-y: scroll;
 }
 
 
