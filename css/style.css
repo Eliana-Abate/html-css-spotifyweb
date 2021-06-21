@@ -286,9 +286,33 @@ main {
     text-align: center;
 }
 
-.single-album img {
-    max-width: 100%;
+.img-container {
     margin-bottom: 10px;
+    position: relative;
+}
+
+.single-album .img-container img {
+    max-width: 100%;
+}
+
+.play-on-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.play-on-hover>.far.fa-play-circle {
+    font-size: 3em;
+}
+
+.single-album .img-container:hover img {
+    filter: brightness(70%);
+}
+
+.single-album .img-container:hover .play-on-hover {
+    visibility: visible;
 }
 
 .playlist-name h6 {
@@ -378,13 +402,13 @@ footer {
     padding-right: 25px;
 }
 
-.far.fa-play-circle {
+.controls-icons .far.fa-play-circle {
     padding-left: 35px;
     padding-right: 35px;
     font-size: 2em;
 }
 
-.far.fa-play-circle:hover {
+.controls-icons .far.fa-play-circle:hover {
     transform: scale(1.2);
 }
 
