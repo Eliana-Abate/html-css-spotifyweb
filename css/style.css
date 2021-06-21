@@ -14,6 +14,10 @@ li {
   list-style-type: none;
 }
 
+.mg-right {
+    margin-right: 50px;
+}
+
 
 
 /******************** HEADER *****************************/
@@ -315,4 +319,27 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.now-played {
+    padding-top: 18px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.now-played p {
+    font-size: 0.6em;
+    color: gray;
+}
+
+.player-controls .now-played img {
+    width: 12%;
+    margin-right: 15px;
+}
+
+.far.fa-heart, .far.fa-folder {
+    color: gray;
+    padding-right: 12px;
 }
