@@ -213,7 +213,6 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 #app-download {
@@ -224,6 +223,7 @@ main {
     flex-wrap: nowrap;
     align-items: center;
     padding-bottom: 8px;
+    margin-right: 20px;
 }
 
 #app-download:hover {
