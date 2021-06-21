@@ -429,13 +429,18 @@ footer {
     background-color: yellowgreen;
 }
 
+.progress-bar-big:hover .marker {
+    visibility: visible;
+}
+
+.progress-bar-small:hover .marker {
+    visibility: visible;
+}
+
 .progress-bar-small:hover .progress-value {
     background-color: yellowgreen;
 }
 
-.progress-value:hover .marker {
-    visibility: visible;
-}
 
 #time-played, #time-left {
     font-size: 0.7em;
